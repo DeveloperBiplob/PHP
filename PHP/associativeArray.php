@@ -17,4 +17,20 @@ echo 'Student Class is: ' . $studentDetails["class"];
 echo "<br/>";
 echo 'Student Address is: ' . $studentDetails["address"];
 
+echo "<br/><br/>";
+// gettype, print_r, var_dump
+
+// gettype() - data type pirnt kore.
+echo gettype($studentDetails);
+
+// print_r() -  array vlue guluke shundor kore print kore.
+echo '<pre>';
+print_r($studentDetails);
+echo '<pre/>';
+
+// var-dump() - array vlue guluke shundor kore print kore.
+// but akta object er modde.
+
+var_dump($studentDetails);
+
 ?>
